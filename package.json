@@ -1,10 +1,6 @@
 {
-  "name": "@srikarst/whatsapp-util",
+  "name": "@meta/whatsapp-util",
   "version": "1.0.21",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
   "description": "Utility service for Whatsapp",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
