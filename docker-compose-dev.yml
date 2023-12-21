@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - /home/node/whatsapp-util/node_modules
+      - .:/home/node/whatsapp-util:cached
